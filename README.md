@@ -4,6 +4,6 @@ Este repositório contém o código R e o artigo científico associado a um estu
 
 <img src="figs/dag1.png?raw=true" alt="fig2" height = "400">
 
-<img align="right" src="figs/dag2.png?raw=true" alt="fig2" height = "400">
+<img align="center" src="figs/dag2.png?raw=true" alt="fig2" height = "400">
 
 <img align="right" src="figs/dag3.png?raw=true" alt="fig2" height = "400">
