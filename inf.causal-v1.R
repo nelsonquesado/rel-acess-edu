@@ -42,8 +42,8 @@ dag %>%
   geom_dag_label_repel(aes(label = name, fill = name), color = 'white', vjust = .2, size = 5) +
   geom_dag_edges() +
   labs(title = 'Hipótese de Relação Causal A Priori', subtitle = 'Diagrama Causal') +
-  theme_dag() +
-  theme(legend.position="none", strip.text = element_blank())
+  theme_linedraw() +
+  theme(legend.position="none", strip.text = element_blank(), axis.title = element_blank(), axis.text = element_blank())
 
 ggsave('figs/dag1.png', scale = 1.1, dpi = 'retina')
 
@@ -53,8 +53,8 @@ dag %>%
   geom_dag_label_repel(aes(label = name, fill = name), color = 'white', vjust = .2, size = 5) +
   geom_dag_edges() +
   labs(title = 'Hipótese de Relação Causal A Priori', subtitle = 'Diagrama Causal', color = "Relação de Interesse") +
-  theme_dag() +
-  theme(legend.position = "bottom")
+  theme_linedraw() +
+  theme(legend.position = "bottom", axis.title = element_blank(), axis.text = element_blank())
 ggsave('figs/dag2.png', scale = 1.1, dpi = 'retina', width = 8, height = 6)
 
 # analise de independências condicionais
